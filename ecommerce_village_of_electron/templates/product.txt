@@ -1,0 +1,71 @@
+<style>
+      img {
+        border: 1px solid #ddd;
+        /* Gray border */
+        border-radius: 4px;
+        /* Rounded border */
+        padding: 5px;
+        /* Some padding */
+        width: 150px;
+        /* Set a small width */
+      }
+
+      /* Add a hover effect (blue shadow) */
+      img:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      }
+    </style>
+    {% if object.image_tow.url %}
+
+    <body>
+
+      <img src="{{ object.image_tow.url }}" alt="Forest">
+      </a>
+
+    </body>
+    {%endif%}
+
+    <!--Grid column-->
+    {% if object.image_three.url %}
+
+    <div class="col-lg-2 col-md-6 mb-4">
+      <img src="{{ object.image_three.url }}" class="img-fluid" alt="">
+    </div>
+    {%endif%}
+
+    <!--Grid column-->
+
+    <!--Grid column-->
+    {% if object.image_four.url %}
+
+    <div class="col-lg-2 col-md-6 mb-4">
+      <img src="{{ object.image_four.url }}" class="img-fluid" alt="">
+    </div>
+    {%endif%}
+
+    <!--Grid column-->
+
+  </div>
+  <hr>
+
+  <!--Grid row-->
+  <!-- <div class="row d-flex justify-content-center wow fadeIn"> -->
+
+  <!--Grid column-->
+  <!-- <div class="col-md-6 text-center">
+
+        <h4 class="my-4 h4">Additional information</h4>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit modi sapiente illo soluta odit
+          voluptates,
+          quibusdam officia. Neque quibusdam quas a quis porro? Molestias illo neque eum in laborum.</p>
+
+      </div> -->
+  <!--Grid column-->
+
+  <!-- </div> -->
+  <!--Grid row-->
+
+  <!--Grid row-->
+
+  <!--Grid row-->
